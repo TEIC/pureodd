@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar 
+    ns="http://www.tei-c.org/ns/1.0"
+    xmlns="http://relaxng.org/ns/structure/1.0">
+  <include href="Schema/tei.rng"/>
+  <include href="Schema/analysis.rng"/>
+  <include href="Schema/certainty.rng"/>
+  <include href="Schema/core.rng"/>
+  <include href="Schema/drama.rng"/>
+  <include href="Schema/figures.rng"/>
+  <include href="Schema/header.rng"/>
+  <include href="Schema/dictionaries.rng"/>
+  <include href="Schema/linking.rng"/>
+  <include href="Schema/namesdates.rng"/>
+  <include href="Schema/nets.rng"/>
+  <include href="Schema/tagdocs.rng"/>
+  <include href="Schema/textcrit.rng"/>
+  <include href="Schema/textstructure.rng"/>
+  <include href="Schema/transcr.rng"/>
+  <include href="Schema/verse.rng"/>
+  <start>
+    <ref name="TEI"/>
+  </start>
+</grammar>
