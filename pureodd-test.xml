@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TEI 
+ xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The TEI Lite Exercise file</title>
+        <author>Gabbitas</author> 
+        <editor>Sebastian</editor>
+       <author>Thring</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished, as yet </p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>All my own invention </p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <list>
+        <item>
+          <date>6 Jul 99</date>Recast in XML for S Rahtz XSL style sheet</item>
+        <item>
+          <date>17 Dec 96</date>First draft for R Lite's DSSSL style
+          sheet</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="doc">
+
+        
+    <head>A test document: section 1:   Σὲ γνωρίζω ἀπὸ τὴν κόψη</head>
+
+
+    <p>This document exercises various features of the TEI Lite dtd. Nothing in
+    it is mandatory, but very little of it is mendacious. Even the
+    bits in non-English, like <foreign>Entführung Aus Dem Serail</foreign> </p>
+    <p>This is a second paragraph, just to show that paragraphs are not all
+    indented to the same extent.</p>
+    <p>This is a third paragraph, just to show that paragraphs are not all
+    indented to the same extent.</p>
+      </div>
+
+    </body>
+  </text>
+</TEI>
