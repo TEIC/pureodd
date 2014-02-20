@@ -55,7 +55,7 @@
 	<xsl:variable name="m">
 	<model>
 	<xsl:if test=".//rng:text">
-	  <xsl:attribute name="mixed">true</xsl:attribute>
+	  <xsl:attribute name="allowText">true</xsl:attribute>
 	</xsl:if>
 	<xsl:apply-templates/>
       </model>

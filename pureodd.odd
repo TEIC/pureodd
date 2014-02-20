@@ -7,6 +7,7 @@
         <author>Sebastian Rahtz</author>
       </titleStmt>
       <publicationStmt>
+	<publisher>TEI</publisher>
         <availability status="free">
           <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a Creative
       Commons Attribution-ShareAlike 3.0 Unported License </licence>
@@ -46,7 +47,7 @@
   </teiHeader>
   <text>
     <body>
-      <head>Implementing Foxglove</head>
+      <head>Implementing Pure ODD</head>
       <specGrp xml:id="model">
         <elementSpec ident="sequence" mode="add">
           <desc>sequence of references</desc>
@@ -106,7 +107,7 @@
         <classSpec ident="att.repeatable" type="atts" mode="add">
           <desc>Attributes for referencing elements</desc>
           <attList>
-            <attDef ident="mixed">
+            <attDef ident="allowText">
               <desc>whether the content may contain text</desc>
               <datatype>
                 <rng:ref name="data.boolean"/>
@@ -296,8 +297,10 @@
         <moduleRef key="tei"/>
         <moduleRef key="textstructure"/>
         <moduleRef key="tagdocs"/>
+	<!--
         <specGrpRef target="#changes"/>
         <specGrpRef target="#model"/>
+	-->
       </schemaSpec>
     </body>
   </text>
