@@ -23,9 +23,6 @@
       <xsl:when test=".//rng:value"><xsl:copy-of select="."/></xsl:when>
       <xsl:otherwise>
 	<xsl:copy>
-	  <xsl:if test=".//rng:text">
-	    <xsl:attribute name="allowText">true</xsl:attribute>
-	  </xsl:if>
 	  <xsl:apply-templates/>
 	</xsl:copy>
       </xsl:otherwise>
@@ -69,6 +66,10 @@
       </sequence>
     </xsl:template>
     
+    <xsl:template match="rng:text">
+      <textNode/>
+    </xsl:template>
+
     <xsl:template match="rng:choice">
       <alternate>
 	<xsl:call-template name="maxmin"/>
